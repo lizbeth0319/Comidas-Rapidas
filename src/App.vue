@@ -49,8 +49,10 @@
 
 <style>
 @font-face {
-  font-family: 'one piece'; 
-  src: url('../assets/fonts/one piece font.ttf') format('truetype');
+  font-family: 'one piece';
+  src: url('../public/fonts/one\ piece\ font.ttf') format('woff2'),
+       url('../public/fonts/one\ piece\ font.woff') format('woff'),
+       url('../public/fonts/one\ piece\ font.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }

@@ -21,10 +21,10 @@ import { ref } from 'vue';
 
 <style>
 @font-face {
-  font-family: 'one piece'; 
-  src: url('../assets/fonts/one-piece.woff2') format('woff2'),
-       url('../assets/fonts/one-piece.woff') format('woff'),
-       url('../assets/fonts/one-piece.ttf') format('truetype'); /* Mantén el .ttf como respaldo */
+  font-family: 'one piece';
+  src: url('../public/fonts/one\ piece\ font.ttf') format('woff2'),
+       url('../public/fonts/one\ piece\ font.woff') format('woff'),
+       url('../public/fonts/one\ piece\ font.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
