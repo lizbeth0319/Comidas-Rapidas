@@ -50,14 +50,12 @@
 <style>
 @font-face {
   font-family: 'one piece'; 
-  src: url('./assets/fonts/one\ piece\ font.ttf') format('woff2'),
-       url('./assets/fonts/one\ piece\ font.ttf') format('woff'),
-       url('./assets/fonts/one\ piece\ font.ttf') format('truetype');
+  src: url('../assets/fonts/one piece font.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
   .titulo {
-    font-family: 'one piece'; /* Usas el nombre que definiste */
+  font-family: 'one piece';
   }
 
   .custom-header{

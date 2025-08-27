@@ -4,7 +4,7 @@
     
     <div class="menu-container">
       <div class="menu-item-card">
-        <div class="item-description">
+        <div class="item-description"><!-- cambiar fondo o diseño -->
           <titulo textoTitulo="Hot dog al Rey de los Piratas" :tamañotitulo="50"></titulo>
           <p>Un perro caliente legendario con salchicha de res, cebolla caramelizada, chucrut y una salsa especial de la Grand Line. ¡Suficiente para alimentar a toda una tripulación!</p>
         </div>
@@ -125,4 +125,6 @@ import titulo from '../components/Titulo.vue';
   height: 100%;
   object-fit: cover;
 }
+
+/* responsiblidad falta */
 </style>

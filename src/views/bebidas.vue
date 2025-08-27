@@ -3,7 +3,7 @@
     <h2 class="section-title">Navega por Nuestras Bebidas</h2>
     <p class="section-description">
       Descubre nuestra colección de bebidas refrescantes, inspiradas en las heroínas de la Grand Line. Cada sorbo es un viaje de sabores únicos y colores pastel.
-    </p>
+    </p><!-- cambiar  color  -->
 
     <div class="bebidas-container">
       <div class="bebida-card nami-bg">
@@ -165,4 +165,5 @@
 .vivi-bg {
   background: linear-gradient(135deg, #81C784, #4CAF50); /* Verde menta */
 }
+/* responsiblidad falta letra */
 </style>

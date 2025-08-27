@@ -3,7 +3,7 @@
         <div class="hamburguesas-container">
         <div class="left-section">
             <titulo textoTitulo="Hamburguesas" :tamañotitulo="150"></titulo>
-            <h2>¡Deléitate con nuestras Hamburguesas! 🍔</h2>
+            <h2>¡Deléitate con nuestras Hamburguesas! 🍔</h2> <!-- cambiar tipo  -->
             <p class="description-text">  Prepara tus papilas gustativas para un viaje de sabor. A continuación, te presentamos el menú de nuestras hamburguesas, cada una creada con ingredientes frescos y el toque especial de la casa. ¡Elige tu favorita y haz que tu antojo se haga realidad!</p>
             
             <div class="cards-grid">
@@ -145,4 +145,5 @@ const burger6 = {
     height: auto;
     justify-content: end;
 }
+/* responsiblidad falta letra */
 </style>

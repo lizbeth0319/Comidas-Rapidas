@@ -52,4 +52,5 @@ h2{
   justify-content: center;
   gap: 20px;
 }
+/* responsiblidad falta letra */
 </style>
