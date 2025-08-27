@@ -57,15 +57,22 @@ const props = defineProps({
     background-size: cover;
     background-position: center;
     margin: auto;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
-
+.burger-card:hover {
+  transform: scale(1.05); /* Hace que la tarjeta se agrande un 5% */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35); /* Le da una sombra más pronunciada */
+}
 .burger-image {
     width: 100%;
     height: 200px;
     object-fit: cover;
     border-bottom: 3px solid #b48b3c;
+    transition: transform 0.3s ease-in-out;
 }
-
+.burger-card:hover .burger-image {
+    transform: translateY(-5px); /* Desplaza la hamburguesa un poco hacia arriba */
+}
 .card-content {
     position: relative;
     z-index: 15;

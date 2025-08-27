@@ -14,26 +14,24 @@
                     <card :burger="burger2"></card>
                 </div>
                 <div class="card-item">
-                    <card :burger="burger2"></card>
+                    <card :burger="burger3"></card>
                 </div>
                 <div class="card-item">
-                    <boton > mesita </boton>
+                    <card :burger="burger4"></card>
                 </div>
                 <div class="card-item">
+                    <card :burger="burger5"></card>
                 </div>
                 <div class="card-item">
+                    <card :burger="burger6"></card>
                 </div>
-                <img src="https://i.pinimg.com/1200x/dc/9c/9c/dc9c9cfa81027d6160c0b39ac30413eb.jpg" alt="Personaje 1" class="character-small"/>
-                <img src="https://i.pinimg.com/736x/20/f9/23/20f923de803cdd263aaf7ea087999650.jpg" alt="Personaje 2" class="character-small"/>
-                <img src="https://i.pinimg.com/1200x/d4/e0/7a/d4e07a28674a2e57853ab0e1943bdc74.jpg" alt="Personaje 3" class="character-small"/>
-                <img src="https://i.pinimg.com/1200x/fb/af/c2/fbafc204872e60353b6e09444d95d3fe.jpg" alt="Personaje 4" class="character-small"/>
-                <img src="https://i.pinimg.com/736x/69/04/d0/6904d09c6c0f0ebdbbc2fdc503f1f3d4.jpg" alt="Personaje 5" class="character-small"/>
-                <img src="https://i.pinimg.com/1200x/b2/89/65/b28965062c1410f521e44bece7e531b0.jpg" alt="Personaje 6" class="character-small"/>
+                
+
             </div>
         </div>
 
         <div class="right-section">
-            <img src="../images/sanji.png" alt="Sanji" class="sanji-character"/>
+           <!--  <img src="../images/sanjimes.jpg" alt="Sanji" class="sanji-character"/> -->
         </div>
         </div>
     </q-page>
@@ -49,7 +47,7 @@ const burger1 = {
     description: "Una jugosa hamburguesa con carne a la parrilla, queso del East Blue...",
     price: "$25.000",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwzyFr9kf2Wl4B6EdtZhzEUdq9M0P4N9elQVHwNYsxnCUbvtQY0UUjBgx5AURR_tX27N0&usqp=CAU",
-    background: "https://i.pinimg.com/736x/7b/13/8b/7b138bfe0e3d82eabb964291d3a7408a.jpg" 
+    background: "https://s3-eu-central-1.amazonaws.com/www.burgerking.com.uy/wp-media-folder-bk-uruguay//home/ubuntu/preview/menu-app/frontend/apps/marketing-website-wordpress-app/web/app/uploads/sites/27/Doble-napo-1024x1024.png" 
 };
 
 const burger2 = {
@@ -57,15 +55,38 @@ const burger2 = {
     description: "Una poderosa hamburguesa con doble carne, tocino, y un toque picante...",
     price: "$30.000",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwzyFr9kf2Wl4B6EdtZhzEUdq9M0P4N9elQVHwNYsxnCUbvtQY0UUjBgx5AURR_tX27N0&usqp=CAU",
-    background: "https://i.pinimg.com/736x/7b/13/8b/7b138bfe0e3d82eabb964291d3a7408a.jpg" 
+    background: "https://s3-eu-central-1.amazonaws.com/www.burgerking.com.bo/wp-media-folder-burger-king-bolivia//home/ubuntu/wordpress/web/app/uploads/sites/9/bacon-king-doble.png" 
 };
 
 const burger3 = {
     name: "Hamburguesa Sanji",
     description: "Un plato exquisito con carne de alta calidad, aros de cebolla y una salsa de ajo especial...",
     price: "$28.000",
-    image: "URL_IMAGEN_HAMBURGUESA3",
-    background: "URL_IMAGEN_SANJI"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwzyFr9kf2Wl4B6EdtZhzEUdq9M0P4N9elQVHwNYsxnCUbvtQY0UUjBgx5AURR_tX27N0&usqp=CAU",
+    background: "https://s3-eu-central-1.amazonaws.com/www.burgerking.com.uy/wp-media-folder-bk-uruguay//home/ubuntu/preview/menu-app/frontend/apps/marketing-website-wordpress-app/web/app/uploads/sites/27/Doble-queso-1.png"
+};
+
+const burger4 = {
+    name: "Hamburguesa Usopp",
+    description: "Una hamburguesa con un toque de humor y muchos sabores. Incluye una mezcla de vegetales crujientes y una salsa agridulce. ¡Un verdadero tesoro!",
+    price: "$22.000",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwzyFr9kf2Wl4B6EdtZhzEUdq9M0P4N9elQVHwNYsxnCUbvtQY0UUjBgx5AURR_tX27N0&usqp=CAU",
+    background: "https://bk-latam-prod.s3.amazonaws.com/sites/burgerking.latam/files/product_detail_steakhousedoritos1-050916.png"
+};
+
+const burger5 = {
+    name: "Hamburguesa Chopper",
+    description: "Una hamburguesa pequeña pero con un gran corazón. Lleva carne de pollo, queso y un pan suave. ¡Una comida que te hará feliz y fuerte!",
+    price: "$18.000",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwzyFr9kf2Wl4B6EdtZhzEUdq9M0P4N9elQVHwNYsxnCUbvtQY0UUjBgx5AURR_tX27N0&usqp=CAU",
+    background: "https://s3-eu-central-1.amazonaws.com/www.burgerking.com.uy/wp-media-folder-bk-uruguay/home/ubuntu/preview/menu-app/frontend/apps/marketing-website-wordpress-app/web/app/uploads/sites/27/2022/03/Mega-Stacker-x1.png"
+};
+const burger6 = {
+    name: "Hamburguesa Franky",
+    description: "Una hamburguesa súper poderosa con un pan de ajonjolí, dos porciones de carne, tocino, queso derretido y un toque de salsa picante.",
+    price: "$35.000",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwzyFr9kf2Wl4B6EdtZhzEUdq9M0P4N9elQVHwNYsxnCUbvtQY0UUjBgx5AURR_tX27N0&usqp=CAU",
+    background: "https://s3-eu-central-1.amazonaws.com/www.burgerking.com.uy/wp-media-folder-bk-uruguay//home/ubuntu/preview/menu-app/frontend/apps/marketing-website-wordpress-app/web/app/uploads/sites/27/Mega-Stacker-4.0.png"
 };
 </script>
 
@@ -102,9 +123,6 @@ const burger3 = {
     position: relative;
 }
 
-.card-item {
-    border: 2px solid #8B0000; 
-}
 
 .character-small {
     position: relative;
@@ -117,6 +135,9 @@ const burger3 = {
 
 .right-section {
     flex: 1; 
+    background-image: url('../images/sanjimes.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .sanji-character {

@@ -67,7 +67,10 @@
 <style scoped>
 .bebidas-page {
   padding: 30px;
-  background-color: #f7f3e9; /* Un fondo crema muy suave */
+  /* background-color: #f7f3e9; /* Un fondo crema muy suave */ 
+  background-image: url('../images/collage_one.jpg');
+  background-size: cover;
+  background-position: top;
 }
 
 .section-title {
