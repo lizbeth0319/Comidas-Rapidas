@@ -21,6 +21,7 @@
                     <img src="../images/chopper.png" class="chooper"></img>
                 </div>
                 <div>
+                    <h1 data-editable="source">Este texto aparecerá en el editor</h1>
                     <p> 
                         En One Piece, creemos que la comida rápida no tiene por qué ser aburrida. 
                     </p><p>
